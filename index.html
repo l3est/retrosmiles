@@ -5,6 +5,7 @@
 <title>Retro Smiles for PersianTools</title>
 <script src="js/clipboard.min.js"></script>
 <link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <style>
 .btn {
@@ -37,12 +38,35 @@ clipboard.on('error', function(e) {
 </script>
 <h4>Retro Smiles for PersianTools</h4>
 <hr>
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="tab2-tab" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Smiles 1</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="tab4-tab" data-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false">Smiles 2</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="tab6-tab" data-toggle="tab" href="#tab6" role="tab" aria-controls="tab6" aria-selected="false">Mix</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="tab3-tab" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Billboards</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="tab1-tab" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">Big</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="tab5-tab" data-toggle="tab" href="#tab5" role="tab" aria-controls="tab5" aria-selected="false">Yahoo</a>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+
+
+<div class="tab-pane fade" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
 <div class="row">
     
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/after_boom.gif[/img]" src='QuickSmiles/10/after_boom.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/alien.gif[/img]" src='QuickSmiles/10/alien.gif'></div>
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/amazed.gif[/img]" src='QuickSmiles/10/amazed.gif'></div>
         <div class="col-auto col-md-2">
@@ -50,17 +74,11 @@ clipboard.on('error', function(e) {
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/anger.gif[/img]" src='QuickSmiles/10/anger.gif'></div>
     
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/go.gif[/img]" src='QuickSmiles/10/go.gif'></div>
     
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/angry.gif[/img]" src='QuickSmiles/10/angry.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/apple.gif[/img]" src='QuickSmiles/10/apple.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/atingheart.gif[/img]" src='QuickSmiles/10/atingheart.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/babygirl.gif[/img]" src='QuickSmiles/10/babygirl.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/bad_egg.gif[/img]" src='QuickSmiles/10/bad_egg.gif'></div>
     
     
         <div class="col-auto col-md-2">
@@ -88,13 +106,8 @@ clipboard.on('error', function(e) {
     
     
         <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/cat33.gif[/img]" src='QuickSmiles/10/cat33.gif'></div>
-        <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/choler.gif[/img]" src='QuickSmiles/10/choler.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/ciao_imbarazzato.gif[/img]" src='QuickSmiles/10/ciao_imbarazzato.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/coffee(1).gif[/img]" src='QuickSmiles/10/coffee(1).gif'></div>
+
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/confident.gif[/img]" src='QuickSmiles/10/confident.gif'></div>
     
@@ -103,10 +116,6 @@ clipboard.on('error', function(e) {
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/confuse.gif[/img]" src='QuickSmiles/10/confuse.gif'></div>
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/confused.gif[/img]" src='QuickSmiles/10/confused.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/crafty.gif[/img]" src='QuickSmiles/10/crafty.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/crazy_grin.gif[/img]" src='QuickSmiles/10/crazy_grin.gif'></div>
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/cry(1).gif[/img]" src='QuickSmiles/10/cry(1).gif'></div>
     
@@ -136,49 +145,19 @@ clipboard.on('error', function(e) {
     
     
         <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/ghostface.gif[/img]" src='QuickSmiles/10/ghostface.gif'></div>
-        <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/girl.gif[/img]" src='QuickSmiles/10/girl.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/glassesf.gif[/img]" src='QuickSmiles/10/glassesf.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/go.gif[/img]" src='QuickSmiles/10/go.gif'></div>
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/greedy.gif[/img]" src='QuickSmiles/10/greedy.gif'></div>
     
     
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/grimace.gif[/img]" src='QuickSmiles/10/grimace.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/happy(1).gif[/img]" src='QuickSmiles/10/happy(1).gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/heart.gif[/img]" src='QuickSmiles/10/heart.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/heartbroken.gif[/img]" src='QuickSmiles/10/heartbroken.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/hippie5.gif[/img]" src='QuickSmiles/10/hippie5.gif'></div>
     
     
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/horror.gif[/img]" src='QuickSmiles/10/horror.gif'></div>
         <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/hubbahubba.gif[/img]" src='QuickSmiles/10/hubbahubba.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/hypo.gif[/img]" src='QuickSmiles/10/hypo.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/inlove.gif[/img]" src='QuickSmiles/10/inlove.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/jason2.gif[/img]" src='QuickSmiles/10/jason2.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/kisses.gif[/img]" src='QuickSmiles/10/kisses.gif'></div>
-        <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/look_down.gif[/img]" src='QuickSmiles/10/look_down.gif'></div>
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/matrix.gif[/img]" src='QuickSmiles/10/matrix.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/matrix_2.gif[/img]" src='QuickSmiles/10/matrix_2.gif'></div>
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/misdoubt.gif[/img]" src='QuickSmiles/10/misdoubt.gif'></div>
     
@@ -191,20 +170,16 @@ clipboard.on('error', function(e) {
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/nothing_to_say.gif[/img]" src='QuickSmiles/10/nothing_to_say.gif'></div>
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/ops.gif[/img]" src='QuickSmiles/10/ops.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/pcheers1.gif[/img]" src='QuickSmiles/10/pcheers1.gif'></div>
     
     
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/pudency.gif[/img]" src='QuickSmiles/10/pudency.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/purr.gif[/img]" src='QuickSmiles/10/purr.gif'></div>
+
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/question(1).gif[/img]" src='QuickSmiles/10/question(1).gif'></div>
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/razz.gif[/img]" src='QuickSmiles/10/razz.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/rex.gif[/img]" src='QuickSmiles/10/rex.gif'></div>
+
     
     
         <div class="col-auto col-md-2">
@@ -227,8 +202,6 @@ clipboard.on('error', function(e) {
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/shameb.gif[/img]" src='QuickSmiles/10/shameb.gif'></div>
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/shocked.gif[/img]" src='QuickSmiles/10/shocked.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/slap_1gtk.gif[/img]" src='QuickSmiles/10/slap_1gtk.gif'></div>
     
     
         <div class="col-auto col-md-2">
@@ -251,20 +224,21 @@ clipboard.on('error', function(e) {
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/sweat.gif[/img]" src='QuickSmiles/10/sweat.gif'></div>
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/sweet_kiss.gif[/img]" src='QuickSmiles/10/sweet_kiss.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/teef.gif[/img]" src='QuickSmiles/10/teef.gif'></div>
+
     
     
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/the_iron_man.gif[/img]" src='QuickSmiles/10/the_iron_man.gif'></div>
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/tong.gif[/img]" src='QuickSmiles/10/tong.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/tooth.gif[/img]" src='QuickSmiles/10/tooth.gif'></div>
+
+
+
+
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/unhappy.gif[/img]" src='QuickSmiles/10/unhappy.gif'></div>
         <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/veiledsmile.gif[/img]" src='QuickSmiles/10/veiledsmile.gif'></div>
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/heart.gif[/img]" src='QuickSmiles/10/heart.gif'></div>
     
     
         <div class="col-auto col-md-2">
@@ -275,10 +249,313 @@ clipboard.on('error', function(e) {
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/what.gif[/img]" src='QuickSmiles/10/what.gif'></div>
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/whatb.gif[/img]" src='QuickSmiles/10/whatb.gif'></div>
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/grimace.gif[/img]" src='QuickSmiles/10/grimace.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/happy(1).gif[/img]" src='QuickSmiles/10/happy(1).gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/bad_egg.gif[/img]" src='QuickSmiles/10/bad_egg.gif'></div>
+
+</div>
+</div>
+<div class="tab-pane fade show active" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+<div class="row">
+
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/8.gif[/img]" src='QuickSmiles/0/8.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/83.gif[/img]" src='QuickSmiles/0/83.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/84.gif[/img]" src='QuickSmiles/0/84.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/85.gif[/img]" src='QuickSmiles/0/85.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/86.gif[/img]" src='QuickSmiles/0/86.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/87.gif[/img]" src='QuickSmiles/0/87.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/88.gif[/img]" src='QuickSmiles/0/88.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/89.gif[/img]" src='QuickSmiles/0/89.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/9.gif[/img]" src='QuickSmiles/0/9.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/90.gif[/img]" src='QuickSmiles/0/90.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/91.gif[/img]" src='QuickSmiles/0/91.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/92.gif[/img]" src='QuickSmiles/0/92.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/93.gif[/img]" src='QuickSmiles/0/93.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/94.gif[/img]" src='QuickSmiles/0/94.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/95.gif[/img]" src='QuickSmiles/0/95.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/96.gif[/img]" src='QuickSmiles/0/96.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/97.gif[/img]" src='QuickSmiles/0/97.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/98.gif[/img]" src='QuickSmiles/0/98.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/99.gif[/img]" src='QuickSmiles/0/99.gif'></div>
+        
+        
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/wha[1].gif[/img]" src='QuickSmiles/0/wha[1].gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/bawl.gif[/img]" src='QuickSmiles/0/bawl.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/sarcastic_hand.gif[/img]" src='QuickSmiles/0/sarcastic_hand.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/punish2.gif[/img]" src='QuickSmiles/0/punish2.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/garfield.gif[/img]" src='QuickSmiles/0/garfield.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/pokey.gif[/img]" src='QuickSmiles/0/pokey.gif'></div>
+    
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/hiya[1].gif[/img]" src='QuickSmiles/0/hiya[1].gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/mamba.gif[/img]" src='QuickSmiles/0/mamba.gif'></div>
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/nerves.gif[/img]" src='QuickSmiles/0/nerves.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/evil_grin.gif[/img]" src='QuickSmiles/0/evil_grin.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/sarcastic.gif[/img]" src='QuickSmiles/0/sarcastic.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/confused0072.gif[/img]" src='QuickSmiles/0/confused0072.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/snoozer_08.gif[/img]" src='QuickSmiles/0/snoozer_08.gif'></div>
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/jealous.gif[/img]" src='QuickSmiles/0/jealous.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/32.gif[/img]" src='QuickSmiles/10/32.gif'></div>
+        
+
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/21.gif[/img]" src='QuickSmiles/0/21.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/216.gif[/img]" src='QuickSmiles/0/216.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/167.gif[/img]" src='QuickSmiles/0/167.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/168.gif[/img]" src='QuickSmiles/0/168.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/169.gif[/img]" src='QuickSmiles/0/169.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/17.gif[/img]" src='QuickSmiles/0/17.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/170.gif[/img]" src='QuickSmiles/0/170.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/171.gif[/img]" src='QuickSmiles/0/171.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/172.gif[/img]" src='QuickSmiles/0/172.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/173.gif[/img]" src='QuickSmiles/0/173.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/174.gif[/img]" src='QuickSmiles/0/174.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/175.gif[/img]" src='QuickSmiles/0/175.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/176.gif[/img]" src='QuickSmiles/0/176.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/177.gif[/img]" src='QuickSmiles/0/177.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/178.gif[/img]" src='QuickSmiles/0/178.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/179.gif[/img]" src='QuickSmiles/0/179.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/18.gif[/img]" src='QuickSmiles/0/18.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/180.gif[/img]" src='QuickSmiles/0/180.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/181.gif[/img]" src='QuickSmiles/0/181.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/182.gif[/img]" src='QuickSmiles/0/182.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/183.gif[/img]" src='QuickSmiles/0/183.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/184.gif[/img]" src='QuickSmiles/0/184.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/185.gif[/img]" src='QuickSmiles/0/185.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/186.gif[/img]" src='QuickSmiles/0/186.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/187.gif[/img]" src='QuickSmiles/0/187.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/188.gif[/img]" src='QuickSmiles/0/188.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/189.gif[/img]" src='QuickSmiles/0/189.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/19.gif[/img]" src='QuickSmiles/0/19.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/190.gif[/img]" src='QuickSmiles/0/190.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/191.gif[/img]" src='QuickSmiles/0/191.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/192.gif[/img]" src='QuickSmiles/0/192.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/193.gif[/img]" src='QuickSmiles/0/193.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/194.gif[/img]" src='QuickSmiles/0/194.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/195.gif[/img]" src='QuickSmiles/0/195.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/196.gif[/img]" src='QuickSmiles/0/196.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/197.gif[/img]" src='QuickSmiles/0/197.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/198.gif[/img]" src='QuickSmiles/0/198.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/199.gif[/img]" src='QuickSmiles/0/199.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/2.gif[/img]" src='QuickSmiles/0/2.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/20.gif[/img]" src='QuickSmiles/0/20.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/200.gif[/img]" src='QuickSmiles/0/200.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/201.gif[/img]" src='QuickSmiles/0/201.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/202.gif[/img]" src='QuickSmiles/0/202.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/203.gif[/img]" src='QuickSmiles/0/203.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/204.gif[/img]" src='QuickSmiles/0/204.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/205.gif[/img]" src='QuickSmiles/0/205.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/206.gif[/img]" src='QuickSmiles/0/206.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/207.gif[/img]" src='QuickSmiles/0/207.gif'></div>
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/217.gif[/img]" src='QuickSmiles/0/217.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/218.gif[/img]" src='QuickSmiles/0/218.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/219.gif[/img]" src='QuickSmiles/0/219.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/22.gif[/img]" src='QuickSmiles/0/22.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/220.gif[/img]" src='QuickSmiles/0/220.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/221.gif[/img]" src='QuickSmiles/0/221.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/222.gif[/img]" src='QuickSmiles/0/222.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/223.gif[/img]" src='QuickSmiles/0/223.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/224.gif[/img]" src='QuickSmiles/0/224.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/225.gif[/img]" src='QuickSmiles/0/225.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/226.gif[/img]" src='QuickSmiles/0/226.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/227.gif[/img]" src='QuickSmiles/0/227.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/228.gif[/img]" src='QuickSmiles/0/228.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/229.gif[/img]" src='QuickSmiles/0/229.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/23.gif[/img]" src='QuickSmiles/0/23.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/230.gif[/img]" src='QuickSmiles/0/230.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/231.gif[/img]" src='QuickSmiles/0/231.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/232.gif[/img]" src='QuickSmiles/0/232.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/233.gif[/img]" src='QuickSmiles/0/233.gif'></div>
+        
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/slap_1gtk.gif[/img]" src='QuickSmiles/10/slap_1gtk.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/teef.gif[/img]" src='QuickSmiles/10/teef.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/tooth.gif[/img]" src='QuickSmiles/10/tooth.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/rex.gif[/img]" src='QuickSmiles/10/rex.gif'></div>
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/matrix_2.gif[/img]" src='QuickSmiles/10/matrix_2.gif'></div>
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/hypo.gif[/img]" src='QuickSmiles/10/hypo.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/jason2.gif[/img]" src='QuickSmiles/10/jason2.gif'></div>
+    
+    
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/ghostface.gif[/img]" src='QuickSmiles/10/ghostface.gif'></div>
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/crafty.gif[/img]" src='QuickSmiles/10/crafty.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/crazy_grin.gif[/img]" src='QuickSmiles/10/crazy_grin.gif'></div>
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/apple.gif[/img]" src='QuickSmiles/10/apple.gif'></div>
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/alien.gif[/img]" src='QuickSmiles/10/alien.gif'></div>
+
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/wish.gif[/img]" src='QuickSmiles/10/wish.gif'></div>
     
     
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/cat33.gif[/img]" src='QuickSmiles/10/cat33.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/ciao_imbarazzato.gif[/img]" src='QuickSmiles/10/ciao_imbarazzato.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/coffee(1).gif[/img]" src='QuickSmiles/10/coffee(1).gif'></div>
     
     
         <div class="col-auto col-md-2">
@@ -504,7 +781,12 @@ clipboard.on('error', function(e) {
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/7/wub[1].gif[/img]" src='QuickSmiles/7/wub[1].gif'></div>
     
-    
+</div>
+</div>
+<div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+<div class="row">
+
+
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/6/baa[1].gif[/img]" src='QuickSmiles/6/baa[1].gif'></div>
         <div class="col-auto col-md-2">
@@ -571,10 +853,215 @@ clipboard.on('error', function(e) {
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/6/wanted[1].gif[/img]" src='QuickSmiles/6/wanted[1].gif'></div>
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/6/welcomeani[1].gif[/img]" src='QuickSmiles/6/welcomeani[1].gif'></div>
+        
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/6/welcome[1].gif[/img]" src='QuickSmiles/6/welcome[1].gif'></div>
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/234.gif[/img]" src='QuickSmiles/0/234.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/235.gif[/img]" src='QuickSmiles/0/235.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/236.gif[/img]" src='QuickSmiles/0/236.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/237.gif[/img]" src='QuickSmiles/0/237.gif'></div>
+    
+</div>
+</div>
+<div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
+<div class="row">
+    
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/7.gif[/img]" src='QuickSmiles/0/7.gif'></div>
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/6.gif[/img]" src='QuickSmiles/0/6.gif'></div>
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/5.gif[/img]" src='QuickSmiles/0/5.gif'></div>
+
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/4.gif[/img]" src='QuickSmiles/0/4.gif'></div>
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/238.gif[/img]" src='QuickSmiles/0/238.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/239.gif[/img]" src='QuickSmiles/0/239.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/24.gif[/img]" src='QuickSmiles/0/24.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/240.gif[/img]" src='QuickSmiles/0/240.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/241.gif[/img]" src='QuickSmiles/0/241.gif'></div>
     
     
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/242.gif[/img]" src='QuickSmiles/0/242.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/243.gif[/img]" src='QuickSmiles/0/243.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/244.gif[/img]" src='QuickSmiles/0/244.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/245.gif[/img]" src='QuickSmiles/0/245.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/246.gif[/img]" src='QuickSmiles/0/246.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/247.gif[/img]" src='QuickSmiles/0/247.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/248.gif[/img]" src='QuickSmiles/0/248.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/249.gif[/img]" src='QuickSmiles/0/249.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/25.gif[/img]" src='QuickSmiles/0/25.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/250.gif[/img]" src='QuickSmiles/0/250.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/251.gif[/img]" src='QuickSmiles/0/251.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/252.gif[/img]" src='QuickSmiles/0/252.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/253.gif[/img]" src='QuickSmiles/0/253.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/254.gif[/img]" src='QuickSmiles/0/254.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/255.gif[/img]" src='QuickSmiles/0/255.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/256.gif[/img]" src='QuickSmiles/0/256.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/257.gif[/img]" src='QuickSmiles/0/257.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/258.gif[/img]" src='QuickSmiles/0/258.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/259.gif[/img]" src='QuickSmiles/0/259.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/26.gif[/img]" src='QuickSmiles/0/26.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/35.gif[/img]" src='QuickSmiles/0/35.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/260.gif[/img]" src='QuickSmiles/0/260.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/261.gif[/img]" src='QuickSmiles/0/261.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/262.gif[/img]" src='QuickSmiles/0/262.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/263.gif[/img]" src='QuickSmiles/0/263.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/264.gif[/img]" src='QuickSmiles/0/264.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/265.gif[/img]" src='QuickSmiles/0/265.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/266.gif[/img]" src='QuickSmiles/0/266.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/267.gif[/img]" src='QuickSmiles/0/267.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/268.gif[/img]" src='QuickSmiles/0/268.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/269.gif[/img]" src='QuickSmiles/0/269.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/27.gif[/img]" src='QuickSmiles/0/27.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/270.gif[/img]" src='QuickSmiles/0/270.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/271.gif[/img]" src='QuickSmiles/0/271.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/272.gif[/img]" src='QuickSmiles/0/272.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/273.gif[/img]" src='QuickSmiles/0/273.gif'></div>
+    
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/3.gif[/img]" src='QuickSmiles/0/3.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/30.gif[/img]" src='QuickSmiles/0/30.gif'></div>
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/303.gif[/img]" src='QuickSmiles/0/303.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/304.gif[/img]" src='QuickSmiles/0/304.gif'></div>
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/31.gif[/img]" src='QuickSmiles/0/31.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/32.gif[/img]" src='QuickSmiles/0/32.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/33.gif[/img]" src='QuickSmiles/0/33.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/34.gif[/img]" src='QuickSmiles/0/34.gif'></div>
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/274.gif[/img]" src='QuickSmiles/0/274.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/275.gif[/img]" src='QuickSmiles/0/275.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/276.gif[/img]" src='QuickSmiles/0/276.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/277.gif[/img]" src='QuickSmiles/0/277.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/278.gif[/img]" src='QuickSmiles/0/278.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/279.gif[/img]" src='QuickSmiles/0/279.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/28.gif[/img]" src='QuickSmiles/0/28.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/280.gif[/img]" src='QuickSmiles/0/280.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/281.gif[/img]" src='QuickSmiles/0/281.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/282.gif[/img]" src='QuickSmiles/0/282.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/283.gif[/img]" src='QuickSmiles/0/283.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/284.gif[/img]" src='QuickSmiles/0/284.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/285.gif[/img]" src='QuickSmiles/0/285.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/286.gif[/img]" src='QuickSmiles/0/286.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/287.gif[/img]" src='QuickSmiles/0/287.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/288.gif[/img]" src='QuickSmiles/0/288.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/289.gif[/img]" src='QuickSmiles/0/289.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/29.gif[/img]" src='QuickSmiles/0/29.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/290.gif[/img]" src='QuickSmiles/0/290.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/291.gif[/img]" src='QuickSmiles/0/291.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/293.gif[/img]" src='QuickSmiles/0/293.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/294.gif[/img]" src='QuickSmiles/0/294.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/295.gif[/img]" src='QuickSmiles/0/295.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/296.gif[/img]" src='QuickSmiles/0/296.gif'></div>
+    
+
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/5/bawl[1].gif[/img]" src='QuickSmiles/5/bawl[1].gif'></div>
         <div class="col-auto col-md-2">
@@ -752,133 +1239,11 @@ clipboard.on('error', function(e) {
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/3/teehee[1].gif[/img]" src='QuickSmiles/3/teehee[1].gif'></div>
     
+
     
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/3/violin[1].gif[/img]" src='QuickSmiles/3/violin[1].gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/1.gif[/img]" src='QuickSmiles/2/1.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/102.gif[/img]" src='QuickSmiles/2/102.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/103.gif[/img]" src='QuickSmiles/2/103.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/11.gif[/img]" src='QuickSmiles/2/11.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/15.gif[/img]" src='QuickSmiles/2/15.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/22.gif[/img]" src='QuickSmiles/2/22.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/23.gif[/img]" src='QuickSmiles/2/23.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/26.gif[/img]" src='QuickSmiles/2/26.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/28.gif[/img]" src='QuickSmiles/2/28.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/29.gif[/img]" src='QuickSmiles/2/29.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/3.gif[/img]" src='QuickSmiles/2/3.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/32.gif[/img]" src='QuickSmiles/2/32.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/34.gif[/img]" src='QuickSmiles/2/34.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/35.gif[/img]" src='QuickSmiles/2/35.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/38.gif[/img]" src='QuickSmiles/2/38.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/4.gif[/img]" src='QuickSmiles/2/4.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/41.gif[/img]" src='QuickSmiles/2/41.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/42.gif[/img]" src='QuickSmiles/2/42.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/43.gif[/img]" src='QuickSmiles/2/43.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/44.gif[/img]" src='QuickSmiles/2/44.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/45.gif[/img]" src='QuickSmiles/2/45.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/46.gif[/img]" src='QuickSmiles/2/46.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/47.gif[/img]" src='QuickSmiles/2/47.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/48.gif[/img]" src='QuickSmiles/2/48.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/49.gif[/img]" src='QuickSmiles/2/49.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/5.gif[/img]" src='QuickSmiles/2/5.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/50.gif[/img]" src='QuickSmiles/2/50.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/52.gif[/img]" src='QuickSmiles/2/52.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/54.gif[/img]" src='QuickSmiles/2/54.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/56.gif[/img]" src='QuickSmiles/2/56.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/59.gif[/img]" src='QuickSmiles/2/59.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/60.gif[/img]" src='QuickSmiles/2/60.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/61.gif[/img]" src='QuickSmiles/2/61.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/62.gif[/img]" src='QuickSmiles/2/62.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/63.gif[/img]" src='QuickSmiles/2/63.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/64.gif[/img]" src='QuickSmiles/2/64.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/65.gif[/img]" src='QuickSmiles/2/65.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/66.gif[/img]" src='QuickSmiles/2/66.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/67.gif[/img]" src='QuickSmiles/2/67.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/68.gif[/img]" src='QuickSmiles/2/68.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/69.gif[/img]" src='QuickSmiles/2/69.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/70.gif[/img]" src='QuickSmiles/2/70.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/71.gif[/img]" src='QuickSmiles/2/71.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/72.gif[/img]" src='QuickSmiles/2/72.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/75.gif[/img]" src='QuickSmiles/2/75.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/76.gif[/img]" src='QuickSmiles/2/76.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/77.gif[/img]" src='QuickSmiles/2/77.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/78.gif[/img]" src='QuickSmiles/2/78.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/79.gif[/img]" src='QuickSmiles/2/79.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/9.gif[/img]" src='QuickSmiles/2/9.gif'></div>
-    
-    
-    
-    
+
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/1/13[1].gif[/img]" src='QuickSmiles/1/13[1].gif'></div>
         <div class="col-auto col-md-2">
@@ -1049,6 +1414,135 @@ clipboard.on('error', function(e) {
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/14.gif[/img]" src='QuickSmiles/0/14.gif'></div>
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/15.gif[/img]" src='QuickSmiles/0/15.gif'></div>
+
+</div>
+</div>
+<div class="tab-pane fade" id="tab5" role="tabpanel" aria-labelledby="tab5-tab">
+<div class="row">
+
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/1.gif[/img]" src='QuickSmiles/2/1.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/102.gif[/img]" src='QuickSmiles/2/102.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/103.gif[/img]" src='QuickSmiles/2/103.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/11.gif[/img]" src='QuickSmiles/2/11.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/15.gif[/img]" src='QuickSmiles/2/15.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/22.gif[/img]" src='QuickSmiles/2/22.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/23.gif[/img]" src='QuickSmiles/2/23.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/26.gif[/img]" src='QuickSmiles/2/26.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/28.gif[/img]" src='QuickSmiles/2/28.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/29.gif[/img]" src='QuickSmiles/2/29.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/3.gif[/img]" src='QuickSmiles/2/3.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/32.gif[/img]" src='QuickSmiles/2/32.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/34.gif[/img]" src='QuickSmiles/2/34.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/35.gif[/img]" src='QuickSmiles/2/35.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/38.gif[/img]" src='QuickSmiles/2/38.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/4.gif[/img]" src='QuickSmiles/2/4.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/41.gif[/img]" src='QuickSmiles/2/41.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/42.gif[/img]" src='QuickSmiles/2/42.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/43.gif[/img]" src='QuickSmiles/2/43.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/44.gif[/img]" src='QuickSmiles/2/44.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/45.gif[/img]" src='QuickSmiles/2/45.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/46.gif[/img]" src='QuickSmiles/2/46.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/47.gif[/img]" src='QuickSmiles/2/47.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/48.gif[/img]" src='QuickSmiles/2/48.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/49.gif[/img]" src='QuickSmiles/2/49.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/5.gif[/img]" src='QuickSmiles/2/5.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/50.gif[/img]" src='QuickSmiles/2/50.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/52.gif[/img]" src='QuickSmiles/2/52.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/54.gif[/img]" src='QuickSmiles/2/54.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/56.gif[/img]" src='QuickSmiles/2/56.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/59.gif[/img]" src='QuickSmiles/2/59.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/60.gif[/img]" src='QuickSmiles/2/60.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/61.gif[/img]" src='QuickSmiles/2/61.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/62.gif[/img]" src='QuickSmiles/2/62.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/63.gif[/img]" src='QuickSmiles/2/63.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/64.gif[/img]" src='QuickSmiles/2/64.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/65.gif[/img]" src='QuickSmiles/2/65.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/66.gif[/img]" src='QuickSmiles/2/66.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/67.gif[/img]" src='QuickSmiles/2/67.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/68.gif[/img]" src='QuickSmiles/2/68.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/69.gif[/img]" src='QuickSmiles/2/69.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/70.gif[/img]" src='QuickSmiles/2/70.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/71.gif[/img]" src='QuickSmiles/2/71.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/72.gif[/img]" src='QuickSmiles/2/72.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/75.gif[/img]" src='QuickSmiles/2/75.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/76.gif[/img]" src='QuickSmiles/2/76.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/77.gif[/img]" src='QuickSmiles/2/77.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/78.gif[/img]" src='QuickSmiles/2/78.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/79.gif[/img]" src='QuickSmiles/2/79.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/2/9.gif[/img]" src='QuickSmiles/2/9.gif'></div>
+    
+    
+    
+        
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/155.gif[/img]" src='QuickSmiles/0/155.gif'></div>
         <div class="col-auto col-md-2">
@@ -1081,122 +1575,13 @@ clipboard.on('error', function(e) {
     
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/166.gif[/img]" src='QuickSmiles/0/166.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/167.gif[/img]" src='QuickSmiles/0/167.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/168.gif[/img]" src='QuickSmiles/0/168.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/169.gif[/img]" src='QuickSmiles/0/169.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/17.gif[/img]" src='QuickSmiles/0/17.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/170.gif[/img]" src='QuickSmiles/0/170.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/171.gif[/img]" src='QuickSmiles/0/171.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/172.gif[/img]" src='QuickSmiles/0/172.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/173.gif[/img]" src='QuickSmiles/0/173.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/174.gif[/img]" src='QuickSmiles/0/174.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/175.gif[/img]" src='QuickSmiles/0/175.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/176.gif[/img]" src='QuickSmiles/0/176.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/177.gif[/img]" src='QuickSmiles/0/177.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/178.gif[/img]" src='QuickSmiles/0/178.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/179.gif[/img]" src='QuickSmiles/0/179.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/18.gif[/img]" src='QuickSmiles/0/18.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/180.gif[/img]" src='QuickSmiles/0/180.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/181.gif[/img]" src='QuickSmiles/0/181.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/182.gif[/img]" src='QuickSmiles/0/182.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/183.gif[/img]" src='QuickSmiles/0/183.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/184.gif[/img]" src='QuickSmiles/0/184.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/185.gif[/img]" src='QuickSmiles/0/185.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/186.gif[/img]" src='QuickSmiles/0/186.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/187.gif[/img]" src='QuickSmiles/0/187.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/188.gif[/img]" src='QuickSmiles/0/188.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/189.gif[/img]" src='QuickSmiles/0/189.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/19.gif[/img]" src='QuickSmiles/0/19.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/190.gif[/img]" src='QuickSmiles/0/190.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/191.gif[/img]" src='QuickSmiles/0/191.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/192.gif[/img]" src='QuickSmiles/0/192.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/193.gif[/img]" src='QuickSmiles/0/193.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/194.gif[/img]" src='QuickSmiles/0/194.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/195.gif[/img]" src='QuickSmiles/0/195.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/196.gif[/img]" src='QuickSmiles/0/196.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/197.gif[/img]" src='QuickSmiles/0/197.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/198.gif[/img]" src='QuickSmiles/0/198.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/199.gif[/img]" src='QuickSmiles/0/199.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/2.gif[/img]" src='QuickSmiles/0/2.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/20.gif[/img]" src='QuickSmiles/0/20.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/200.gif[/img]" src='QuickSmiles/0/200.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/201.gif[/img]" src='QuickSmiles/0/201.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/202.gif[/img]" src='QuickSmiles/0/202.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/203.gif[/img]" src='QuickSmiles/0/203.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/204.gif[/img]" src='QuickSmiles/0/204.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/205.gif[/img]" src='QuickSmiles/0/205.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/206.gif[/img]" src='QuickSmiles/0/206.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/207.gif[/img]" src='QuickSmiles/0/207.gif'></div>
+        
+        
+        
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/208.gif[/img]" src='QuickSmiles/0/208.gif'></div>
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/209.gif[/img]" src='QuickSmiles/0/209.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/21.gif[/img]" src='QuickSmiles/0/21.gif'></div>
     
     
         <div class="col-auto col-md-2">
@@ -1213,272 +1598,7 @@ clipboard.on('error', function(e) {
     
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/215.gif[/img]" src='QuickSmiles/0/215.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/216.gif[/img]" src='QuickSmiles/0/216.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/217.gif[/img]" src='QuickSmiles/0/217.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/218.gif[/img]" src='QuickSmiles/0/218.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/219.gif[/img]" src='QuickSmiles/0/219.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/22.gif[/img]" src='QuickSmiles/0/22.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/220.gif[/img]" src='QuickSmiles/0/220.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/221.gif[/img]" src='QuickSmiles/0/221.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/222.gif[/img]" src='QuickSmiles/0/222.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/223.gif[/img]" src='QuickSmiles/0/223.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/224.gif[/img]" src='QuickSmiles/0/224.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/225.gif[/img]" src='QuickSmiles/0/225.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/226.gif[/img]" src='QuickSmiles/0/226.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/227.gif[/img]" src='QuickSmiles/0/227.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/228.gif[/img]" src='QuickSmiles/0/228.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/229.gif[/img]" src='QuickSmiles/0/229.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/23.gif[/img]" src='QuickSmiles/0/23.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/230.gif[/img]" src='QuickSmiles/0/230.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/231.gif[/img]" src='QuickSmiles/0/231.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/232.gif[/img]" src='QuickSmiles/0/232.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/233.gif[/img]" src='QuickSmiles/0/233.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/234.gif[/img]" src='QuickSmiles/0/234.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/235.gif[/img]" src='QuickSmiles/0/235.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/236.gif[/img]" src='QuickSmiles/0/236.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/237.gif[/img]" src='QuickSmiles/0/237.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/238.gif[/img]" src='QuickSmiles/0/238.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/239.gif[/img]" src='QuickSmiles/0/239.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/24.gif[/img]" src='QuickSmiles/0/24.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/240.gif[/img]" src='QuickSmiles/0/240.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/241.gif[/img]" src='QuickSmiles/0/241.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/242.gif[/img]" src='QuickSmiles/0/242.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/243.gif[/img]" src='QuickSmiles/0/243.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/244.gif[/img]" src='QuickSmiles/0/244.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/245.gif[/img]" src='QuickSmiles/0/245.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/246.gif[/img]" src='QuickSmiles/0/246.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/247.gif[/img]" src='QuickSmiles/0/247.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/248.gif[/img]" src='QuickSmiles/0/248.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/249.gif[/img]" src='QuickSmiles/0/249.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/25.gif[/img]" src='QuickSmiles/0/25.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/250.gif[/img]" src='QuickSmiles/0/250.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/251.gif[/img]" src='QuickSmiles/0/251.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/252.gif[/img]" src='QuickSmiles/0/252.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/253.gif[/img]" src='QuickSmiles/0/253.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/254.gif[/img]" src='QuickSmiles/0/254.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/255.gif[/img]" src='QuickSmiles/0/255.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/256.gif[/img]" src='QuickSmiles/0/256.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/257.gif[/img]" src='QuickSmiles/0/257.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/258.gif[/img]" src='QuickSmiles/0/258.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/259.gif[/img]" src='QuickSmiles/0/259.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/26.gif[/img]" src='QuickSmiles/0/26.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/260.gif[/img]" src='QuickSmiles/0/260.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/261.gif[/img]" src='QuickSmiles/0/261.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/262.gif[/img]" src='QuickSmiles/0/262.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/263.gif[/img]" src='QuickSmiles/0/263.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/264.gif[/img]" src='QuickSmiles/0/264.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/265.gif[/img]" src='QuickSmiles/0/265.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/266.gif[/img]" src='QuickSmiles/0/266.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/267.gif[/img]" src='QuickSmiles/0/267.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/268.gif[/img]" src='QuickSmiles/0/268.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/269.gif[/img]" src='QuickSmiles/0/269.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/27.gif[/img]" src='QuickSmiles/0/27.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/270.gif[/img]" src='QuickSmiles/0/270.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/271.gif[/img]" src='QuickSmiles/0/271.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/272.gif[/img]" src='QuickSmiles/0/272.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/273.gif[/img]" src='QuickSmiles/0/273.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/274.gif[/img]" src='QuickSmiles/0/274.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/275.gif[/img]" src='QuickSmiles/0/275.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/276.gif[/img]" src='QuickSmiles/0/276.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/277.gif[/img]" src='QuickSmiles/0/277.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/278.gif[/img]" src='QuickSmiles/0/278.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/279.gif[/img]" src='QuickSmiles/0/279.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/28.gif[/img]" src='QuickSmiles/0/28.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/280.gif[/img]" src='QuickSmiles/0/280.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/281.gif[/img]" src='QuickSmiles/0/281.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/282.gif[/img]" src='QuickSmiles/0/282.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/283.gif[/img]" src='QuickSmiles/0/283.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/284.gif[/img]" src='QuickSmiles/0/284.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/285.gif[/img]" src='QuickSmiles/0/285.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/286.gif[/img]" src='QuickSmiles/0/286.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/287.gif[/img]" src='QuickSmiles/0/287.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/288.gif[/img]" src='QuickSmiles/0/288.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/289.gif[/img]" src='QuickSmiles/0/289.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/29.gif[/img]" src='QuickSmiles/0/29.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/290.gif[/img]" src='QuickSmiles/0/290.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/291.gif[/img]" src='QuickSmiles/0/291.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/292.gif[/img]" src='QuickSmiles/0/292.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/293.gif[/img]" src='QuickSmiles/0/293.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/294.gif[/img]" src='QuickSmiles/0/294.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/295.gif[/img]" src='QuickSmiles/0/295.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/296.gif[/img]" src='QuickSmiles/0/296.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/297.gif[/img]" src='QuickSmiles/0/297.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/298.gif[/img]" src='QuickSmiles/0/298.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/299.gif[/img]" src='QuickSmiles/0/299.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/3.gif[/img]" src='QuickSmiles/0/3.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/30.gif[/img]" src='QuickSmiles/0/30.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/300.gif[/img]" src='QuickSmiles/0/300.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/301.gif[/img]" src='QuickSmiles/0/301.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/302.gif[/img]" src='QuickSmiles/0/302.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/303.gif[/img]" src='QuickSmiles/0/303.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/304.gif[/img]" src='QuickSmiles/0/304.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/305.gif[/img]" src='QuickSmiles/0/305.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/306.gif[/img]" src='QuickSmiles/0/306.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/307.gif[/img]" src='QuickSmiles/0/307.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/308.gif[/img]" src='QuickSmiles/0/308.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/309.gif[/img]" src='QuickSmiles/0/309.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/31.gif[/img]" src='QuickSmiles/0/31.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/310.gif[/img]" src='QuickSmiles/0/310.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/311.gif[/img]" src='QuickSmiles/0/311.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/32.gif[/img]" src='QuickSmiles/0/32.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/33.gif[/img]" src='QuickSmiles/0/33.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/34.gif[/img]" src='QuickSmiles/0/34.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/35.gif[/img]" src='QuickSmiles/0/35.gif'></div>
+
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/36.gif[/img]" src='QuickSmiles/0/36.gif'></div>
         <div class="col-auto col-md-2">
@@ -1489,8 +1609,6 @@ clipboard.on('error', function(e) {
     
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/39.gif[/img]" src='QuickSmiles/0/39.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/4.gif[/img]" src='QuickSmiles/0/4.gif'></div>
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/40.gif[/img]" src='QuickSmiles/0/40.gif'></div>
         <div class="col-auto col-md-2">
@@ -1516,8 +1634,6 @@ clipboard.on('error', function(e) {
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/49.gif[/img]" src='QuickSmiles/0/49.gif'></div>
         <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/5.gif[/img]" src='QuickSmiles/0/5.gif'></div>
-        <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/50.gif[/img]" src='QuickSmiles/0/50.gif'></div>
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/51.gif[/img]" src='QuickSmiles/0/51.gif'></div>
@@ -1542,8 +1658,6 @@ clipboard.on('error', function(e) {
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/59.gif[/img]" src='QuickSmiles/0/59.gif'></div>
         <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/6.gif[/img]" src='QuickSmiles/0/6.gif'></div>
-        <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/60.gif[/img]" src='QuickSmiles/0/60.gif'></div>
     
     
@@ -1567,8 +1681,6 @@ clipboard.on('error', function(e) {
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/68.gif[/img]" src='QuickSmiles/0/68.gif'></div>
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/69.gif[/img]" src='QuickSmiles/0/69.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/7.gif[/img]" src='QuickSmiles/0/7.gif'></div>
     
     
         <div class="col-auto col-md-2">
@@ -1596,103 +1708,35 @@ clipboard.on('error', function(e) {
     
     
         <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/8.gif[/img]" src='QuickSmiles/0/8.gif'></div>
-        <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/80.gif[/img]" src='QuickSmiles/0/80.gif'></div>
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/81.gif[/img]" src='QuickSmiles/0/81.gif'></div>
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/82.gif[/img]" src='QuickSmiles/0/82.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/83.gif[/img]" src='QuickSmiles/0/83.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/84.gif[/img]" src='QuickSmiles/0/84.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/85.gif[/img]" src='QuickSmiles/0/85.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/86.gif[/img]" src='QuickSmiles/0/86.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/87.gif[/img]" src='QuickSmiles/0/87.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/88.gif[/img]" src='QuickSmiles/0/88.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/89.gif[/img]" src='QuickSmiles/0/89.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/9.gif[/img]" src='QuickSmiles/0/9.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/90.gif[/img]" src='QuickSmiles/0/90.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/91.gif[/img]" src='QuickSmiles/0/91.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/92.gif[/img]" src='QuickSmiles/0/92.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/93.gif[/img]" src='QuickSmiles/0/93.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/94.gif[/img]" src='QuickSmiles/0/94.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/95.gif[/img]" src='QuickSmiles/0/95.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/96.gif[/img]" src='QuickSmiles/0/96.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/97.gif[/img]" src='QuickSmiles/0/97.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/98.gif[/img]" src='QuickSmiles/0/98.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/99.gif[/img]" src='QuickSmiles/0/99.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/bala.gif[/img]" src='QuickSmiles/0/bala.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/sumo.gif[/img]" src='QuickSmiles/0/sumo.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/wc.gif[/img]" src='QuickSmiles/0/wc.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/wha[1].gif[/img]" src='QuickSmiles/0/wha[1].gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/bawl.gif[/img]" src='QuickSmiles/0/bawl.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/wide-eyed.gif[/img]" src='QuickSmiles/0/wide-eyed.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/pray.gif[/img]" src='QuickSmiles/0/pray.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/cry2.gif[/img]" src='QuickSmiles/0/cry2.gif'></div>
-    
-    
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/character0144.gif[/img]" src='QuickSmiles/0/character0144.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/sarcastic_hand.gif[/img]" src='QuickSmiles/0/sarcastic_hand.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/punish2.gif[/img]" src='QuickSmiles/0/punish2.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/garfield.gif[/img]" src='QuickSmiles/0/garfield.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/pokey.gif[/img]" src='QuickSmiles/0/pokey.gif'></div>
-    
+
+        
+        
+        
+
+</div>
+</div>
+<div class="tab-pane fade" id="tab6" role="tabpanel" aria-labelledby="tab6-tab">
+<div class="row">
+
 
         <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/hiya[1].gif[/img]" src='QuickSmiles/0/hiya[1].gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/mamba.gif[/img]" src='QuickSmiles/0/mamba.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/tooth.gif[/img]" src='QuickSmiles/0/tooth.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/happy.gif[/img]" src='QuickSmiles/0/happy.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/bum.gif[/img]" src='QuickSmiles/0/bum.gif'></div>
-    
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/heartbroken.gif[/img]" src='QuickSmiles/10/heartbroken.gif'></div>
 
         <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/ura1.gif[/img]" src='QuickSmiles/0/ura1.gif'></div>
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/atingheart.gif[/img]" src='QuickSmiles/10/atingheart.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/hubbahubba.gif[/img]" src='QuickSmiles/10/hubbahubba.gif'></div>
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/inlove.gif[/img]" src='QuickSmiles/10/inlove.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/kisses.gif[/img]" src='QuickSmiles/10/kisses.gif'></div>
+
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/bad_boys_22.gif[/img]" src='QuickSmiles/0/bad_boys_22.gif'></div>
         <div class="col-auto col-md-2">
@@ -1703,16 +1747,6 @@ clipboard.on('error', function(e) {
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/evilsmile.gif[/img]" src='QuickSmiles/0/evilsmile.gif'></div>
     
 
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/nerves.gif[/img]" src='QuickSmiles/0/nerves.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/evil_grin.gif[/img]" src='QuickSmiles/0/evil_grin.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/sarcastic.gif[/img]" src='QuickSmiles/0/sarcastic.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/confused0072.gif[/img]" src='QuickSmiles/0/confused0072.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/snoozer_08.gif[/img]" src='QuickSmiles/0/snoozer_08.gif'></div>
     
 
         <div class="col-auto col-md-2">
@@ -1728,11 +1762,8 @@ clipboard.on('error', function(e) {
     
 
         <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/jealous.gif[/img]" src='QuickSmiles/0/jealous.gif'></div>
-        <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/gigglesmile.gif[/img]" src='QuickSmiles/0/gigglesmile.gif'></div>
-        <div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/32.gif[/img]" src='QuickSmiles/10/32.gif'></div>
+
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/mpr.gif[/img]" src='QuickSmiles/10/mpr.gif'></div>
         <div class="col-auto col-md-2">
@@ -1741,14 +1772,14 @@ clipboard.on('error', function(e) {
 
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/mocantina.gif[/img]" src='QuickSmiles/0/mocantina.gif'></div>
-<div class="col-auto col-md-2">
+		<div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/bala2.gif[/img]" src='QuickSmiles/0/bala2.gif'></div>
-<div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/bala3.gif[/img]" src='QuickSmiles/0/bala3.gif'></div>
-<div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/2cf37ep.gif[/img]" src='QuickSmiles/0/2cf37ep.gif'></div>
-<div class="col-auto col-md-2">
-        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/2ynjwb4.gif[/img]" src='QuickSmiles/0/2ynjwb4.gif'></div>
+		<div class="col-auto col-md-2">
+		        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/bala3.gif[/img]" src='QuickSmiles/0/bala3.gif'></div>
+		<div class="col-auto col-md-2">
+		        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/2cf37ep.gif[/img]" src='QuickSmiles/0/2cf37ep.gif'></div>
+		<div class="col-auto col-md-2">
+		        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/2ynjwb4.gif[/img]" src='QuickSmiles/0/2ynjwb4.gif'></div>
     
 
         <div class="col-auto col-md-2">
@@ -1794,7 +1825,93 @@ clipboard.on('error', function(e) {
         <div class="col-auto col-md-2">
         <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/AddEmoticons09796.gif[/img]" src='QuickSmiles/0/AddEmoticons09796.gif'></div>
 
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/tooth.gif[/img]" src='QuickSmiles/0/tooth.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/happy.gif[/img]" src='QuickSmiles/0/happy.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/bum.gif[/img]" src='QuickSmiles/0/bum.gif'></div>
+    
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/ura1.gif[/img]" src='QuickSmiles/0/ura1.gif'></div>
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/wide-eyed.gif[/img]" src='QuickSmiles/0/wide-eyed.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/pray.gif[/img]" src='QuickSmiles/0/pray.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/cry2.gif[/img]" src='QuickSmiles/0/cry2.gif'></div>
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/character0144.gif[/img]" src='QuickSmiles/0/character0144.gif'></div>
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/bala.gif[/img]" src='QuickSmiles/0/bala.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/sumo.gif[/img]" src='QuickSmiles/0/sumo.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/wc.gif[/img]" src='QuickSmiles/0/wc.gif'></div>
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/292.gif[/img]" src='QuickSmiles/0/292.gif'></div>
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/297.gif[/img]" src='QuickSmiles/0/297.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/298.gif[/img]" src='QuickSmiles/0/298.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/299.gif[/img]" src='QuickSmiles/0/299.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/300.gif[/img]" src='QuickSmiles/0/300.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/301.gif[/img]" src='QuickSmiles/0/301.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/302.gif[/img]" src='QuickSmiles/0/302.gif'></div>
+    
+    
+    
+    
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/305.gif[/img]" src='QuickSmiles/0/305.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/306.gif[/img]" src='QuickSmiles/0/306.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/307.gif[/img]" src='QuickSmiles/0/307.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/308.gif[/img]" src='QuickSmiles/0/308.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/309.gif[/img]" src='QuickSmiles/0/309.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/310.gif[/img]" src='QuickSmiles/0/310.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/0/311.gif[/img]" src='QuickSmiles/0/311.gif'></div>
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/veiledsmile.gif[/img]" src='QuickSmiles/10/veiledsmile.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/glassesf.gif[/img]" src='QuickSmiles/10/glassesf.gif'></div>
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/pcheers1.gif[/img]" src='QuickSmiles/10/pcheers1.gif'></div>
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/purr.gif[/img]" src='QuickSmiles/10/purr.gif'></div>
+    
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/babygirl.gif[/img]" src='QuickSmiles/10/babygirl.gif'></div>
+
+        <div class="col-auto col-md-2">
+        <img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/QuickSmiles/10/hippie5.gif[/img]" src='QuickSmiles/10/hippie5.gif'></div>
+
+
 </div>
+</div>
+
+
+</div>
+
 <hr>
 <p>Most of smiles from <a href='http://www.asefsoft.com'>AsefSoft</a>'s retro quicksmiles.</p>
 </body>
