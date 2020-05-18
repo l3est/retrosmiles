@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/notify.js"></script>
 <style>
 .btn {
 	cursor:pointer;
@@ -16,12 +17,12 @@
 </head>
 <body><script>
 if(!ClipboardJS.isSupported())
-	alert("Copy to clipboard is not supported for your browser!");
+	$.notify("Copy to clipboard is not supported for your browser!");
 	
 var clipboard = new ClipboardJS('.btn');
 
 clipboard.on('success', function(e) {
-		alert("Smiley copied to clipboard!");
+		$.notify("Smiley copied to clipboard!");//alert("Smiley copied to clipboard!");
 //		console.info('Action:', e.action);
 //		console.info('Text:', e.text);
 //		console.info('Trigger:', e.trigger);
@@ -30,7 +31,7 @@ clipboard.on('success', function(e) {
 });
 
 clipboard.on('error', function(e) {
-		alert("Can not copied to clipboard!");
+		$.notify("Smiley copied to clipboard!");//alert("Can not copied to clipboard!");
 //    console.error('Action:', e.action);
 //    console.error('Trigger:', e.trigger);
 });
