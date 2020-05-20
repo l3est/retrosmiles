@@ -60,7 +60,7 @@ ath.intl = {
 
 	en_us: {
 		ios: '<div style="direction:rtl">جهت افزودن این صفحه بصورت یک اپ: بر روی %icon کلیک کرده و سپس دکمه <strong>Add to Home Screen</strong> را بزنید.</div>',
-		android: '<div style="direction:rtl">جهت افزودن این صفحه خانه بر روی منوی option رفته و بر روی <strong>Add to homescreen</strong> کلیک کنید. <small>این منو توسط دکمه منوی دستگاه شما یا با کلیک بر روی آیکن %icon ظاهر می شود.</small></div>'
+		android: '<div style="direction:rtl">جهت افزودن این صفحه بصورت یک اپ، بر روی منوی option رفته و بر روی <strong>Add to homescreen</strong> کلیک کنید. <small>این منو توسط دکمه منوی دستگاه شما یا با کلیک بر روی آیکن %icon ظاهر می شود.</small></div>'
 	},
 
 	es_es: {
