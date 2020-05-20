@@ -1,0 +1,15 @@
+{
+  "background_color": "white",
+  "description": "RetroSmiles",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "QuickSmiles/10/big_smile.gif",
+      "sizes": "48x48",
+      "type": "image/gif"
+    }
+  ],
+  "name": "RetroSmiles",
+  "short_name": "RetroSmiles",
+  "start_url": "index.html"
+}
