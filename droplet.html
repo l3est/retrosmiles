@@ -28,6 +28,8 @@ function handleDrop() {
     
 	var p = $('#path').val()+filename;
   $('#txt').val($('#txt').val()+ '<div class="col-auto col-md-2"><img  class="btn"  data-clipboard-text="[img]https://retrosmiles.github.io/retrosmiles/'+p+'[/img]" src="'+p+'"></div>\n');
+  $('#drop-area').fadeOut(100);
+  $('#drop-area').fadeIn(200);
 }
   
 </script>
