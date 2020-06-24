@@ -43,11 +43,15 @@ function loadTab(e) {
     var loadurl =  e.replace('-tab','.html') + '?' + Date.now();
     if($(targ).html().indexOf('class="row"') <= 0) {
     	$.notify("loading...", {autoHideDelay: 1000});
+    	try {
 		$.get(loadurl, function(data) {
     		$(targ).html(data);
    		}).fail(function() {
     		$.notify("error, try later.", {autoHideDelay: 1000});
   		});
+  		} catch(e) {
+  		$.notify("error, try later.", {autoHideDelay: 1000});
+  		}
    	}
 
 }
@@ -56,11 +60,15 @@ function loadTabs() {
     var targ =  '#myTab';
     var loadurl =  'tabs.html' + '?' + Date.now();
     if($(targ).html().indexOf('class="row"') <= 0) {
+    	try {
 		$.get(loadurl, function(data) {
     		$(targ).html(data);
    		}).fail(function() {
     		$.notify("error, try later.", {autoHideDelay: 1000});
   		});
+  		} catch(e) {
+  		$.notify("error, try later.", {autoHideDelay: 1000});
+  		}
    	}
 
 }
