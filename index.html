@@ -45,7 +45,9 @@ function loadTab(e) {
     	$.notify("loading...", {autoHideDelay: 1000});
 		$.get(loadurl, function(data) {
     		$(targ).html(data);
-   		});
+   		}).fail(function() {
+    		$.notify("error, try later.", {autoHideDelay: 1000});
+  		});
    	}
 
 }
