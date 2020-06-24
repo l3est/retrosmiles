@@ -12,8 +12,18 @@
 <style>
 .btn {
 	cursor:pointer;
+	max-width:100px;
+	max-height:auto;
 }
 .btn:hover{background:yellow}
+.logo{
+font-size:1.2em;
+font-weight:bold;
+padding:0.2em;
+margin-bottom:2px;
+width:100%;color:white;background-color:#888;
+background: rgb(40,85,173);
+background: linear-gradient(90deg, rgba(40,85,173,1) 0%, rgba(230,238,249,1) 100%);}
 </style>
 </head>
 <body><script>
@@ -79,10 +89,10 @@ $(function() {
 });
 
 </script>
-<h4>Retro Smiles</h4>
-<hr>
-<ul class="nav nav-tabs" id="myTab" role="tablist">
+<div class="logo">Retro Smiles</div>
+<ul class="nav nav-pills" id="myTab" role="tablist">
 </ul>
+<hr>
 <div class="tab-content" id="myTabContent">
 
 
