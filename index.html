@@ -7,6 +7,7 @@
 <script src="js/clipboard.min.js"></script>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/notify.js"></script>
 <style>
@@ -24,6 +25,12 @@ margin-bottom:2px;
 width:100%;color:white;background-color:#888;
 background: rgb(40,85,173);
 background: linear-gradient(90deg, rgba(40,85,173,1) 0%, rgba(230,238,249,1) 100%);}
+.tabl{
+padding:8px 10px 4px 10px;
+background: #bababa;
+background: linear-gradient(90deg, #fff 0%, #bababa 100%);
+margin-bottom:5px;
+}
 </style>
 </head>
 <body><script>
@@ -49,6 +56,10 @@ clipboard.on('error', function(e) {
 
 
 function loadTab(e) {
+	$('.dropdown-item').removeClass('active');
+	$('#dtext').html($('#'+e).html());
+	$('#selText').html($('#'+e).html());
+
     var targ =  '#' + e.replace('-tab','');
     var loadurl =  e.replace('-tab','.html') + '?' + Date.now();
     if($(targ).html().indexOf('class="row"') <= 0) {
@@ -63,10 +74,10 @@ function loadTab(e) {
   		$.notify("error, try later.", {autoHideDelay: 1000});
   		}
    	}
-
 }
 
 function loadTabs() {
+/*
     var targ =  '#myTab';
     var loadurl =  'tabs.html' + '?' + Date.now();
     if($(targ).html().indexOf('class="row"') <= 0) {
@@ -80,19 +91,50 @@ function loadTabs() {
   		$.notify("error, try later.", {autoHideDelay: 1000});
   		}
    	}
+*/
+    var targ =  '.dropdown-menu';
+    var loadurl =  'buttons.html' + '?' + Date.now();
+    if($(targ).html().indexOf('<a class') <= 0) {
+    	try {
+		$.get(loadurl, function(data) {
+    		$(targ).html(data);
+    		loadTab('tab2-tab');
+   		}).fail(function() {
+    		$.notify("error, try later.", {autoHideDelay: 1000});
+  		});
+  		} catch(e) {
+  		$.notify("error, try later.", {autoHideDelay: 1000});
+  		}
+   	}
 
 }
 
 $(function() {
 	loadTabs();
-	loadTab('tab2-tab');
+	
+
 });
 
 </script>
 <div class="logo">Retro Smiles</div>
-<ul class="nav nav-pills" id="myTab" role="tablist">
-</ul>
-<hr>
+
+<div class="row tabl">
+	<div class="col-6">
+		<b id="selText"></b>
+	</div>
+	<div class="col-6">
+		<div class="text-right">
+		<div class="btn-group">
+		  <button type="button" id="dtext" style="min-width:120px" class="btn btn-success btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    Select
+		  </button>
+		  <div class="dropdown-menu">
+		  </div>
+		</div>
+		</div>
+	</div>
+</div>
+
 <div class="tab-content" id="myTabContent">
 
 
@@ -130,7 +172,7 @@ $(function() {
 </div>
 
 <hr>
-<p class="small text-secondary">Most of smiles from AsefSoft's QuickSmiles and PersianTools members.</p>
+<p class="small text-secondary">Smiles collected from AsefSoft QuickSmiles and by PersianTools members.</p>
 
 
 <link rel="stylesheet" type="text/css" href="addtohomescreen.css">
