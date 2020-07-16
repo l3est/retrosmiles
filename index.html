@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="manifest" href="manifest2.webmanifest">
+    <link rel="manifest" href="manifest.webmanifest">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 <title>Retro Smiles</title>
 <script src="js/clipboard.min.js"></script>
@@ -166,7 +166,13 @@ $(function() {
 <link rel="stylesheet" type="text/css" href="addtohomescreen.css">
 <script src="addtohomescreen.js"></script>
 <script>
-addToHomescreen();
+try {
+var url_string = window.location.href
+var url = new URL(url_string);
+var pwa = url.searchParams.get("pwa");
+if(pwa != '1')
+	addToHomescreen();
+} catch(e) {}
 </script>
 </body>
 </html>
