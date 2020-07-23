@@ -58,7 +58,7 @@ function loadTab(e) {
 	$('.dropdown-item').removeClass('active');
 	$('#dtext').html($('#'+e).html());
 	$('#selText').html($('#'+e).html());
-
+	localStorage.setItem('lasttab', e.toString());
     var targ =  '#' + e.replace('-tab','');
     var loadurl =  e.replace('-tab','.html') + '?' + Date.now();
     if($(targ).html().indexOf('class="row"') <= 0) {
@@ -77,13 +77,17 @@ function loadTab(e) {
 }
 
 function loadTabs() {
+	var deftab = 'tab2-tab';
     var targ =  '.dropdown-menu';
     var loadurl =  'buttons.html' + '?' + Date.now();
     if($(targ).html().indexOf('<a class') <= 0) {
     	try {
 		$.get(loadurl, function(data) {
     		$(targ).html(data);
-    		loadTab('tab2-tab');
+    		if (localStorage["lasttab"]) {
+    			deftab = localStorage.getItem('lasttab');
+			}
+    		loadTab(deftab);
    		}).fail(function() {
     		$.notify("error, try later.", {autoHideDelay: 1000});
   		});
