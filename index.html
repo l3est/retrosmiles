@@ -62,6 +62,7 @@ function loadTab(e) {
 	localStorage.setItem('lasttab', e.toString());
     var targ =  '#' + e.replace('-tab','');
     (targ).addClass('active');
+    (targ).addClass('show');
     var loadurl =  e.replace('-tab','.html') + '?' + Date.now();
     if($(targ).html().indexOf('class="row"') <= 0) {
     	$.notify("loading...", {autoHideDelay: 1000});
