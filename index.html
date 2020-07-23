@@ -56,10 +56,12 @@ clipboard.on('error', function(e) {
 
 function loadTab(e) {
 	$('.dropdown-item').removeClass('active');
+	$('.tab-pane').removeClass('active');
 	$('#dtext').html($('#'+e).html());
 	$('#selText').html($('#'+e).html());
 	localStorage.setItem('lasttab', e.toString());
     var targ =  '#' + e.replace('-tab','');
+    (targ).addClass('active');
     var loadurl =  e.replace('-tab','.html') + '?' + Date.now();
     if($(targ).html().indexOf('class="row"') <= 0) {
     	$.notify("loading...", {autoHideDelay: 1000});
