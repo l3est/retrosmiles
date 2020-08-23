@@ -39,6 +39,14 @@ width:100%;
 </style>
 </head>
 <body><script>
+function playHint() {
+try {
+var snd = new Audio("coin.mp3");
+snd.currentTime=0;
+snd.play();
+} catch(e) {}
+}
+
 var count_smb=0;
 
 if(!ClipboardJS.isSupported())
@@ -48,8 +56,10 @@ var clipboard = new ClipboardJS('.btn');
 
 clipboard.on('success', function(e) {
 	count_smb++;
-	if(count_smb>2) {
+	if(count_smb > 2 && count_smb <6) {
+		$("#smb").fadeOut();
 		$("#smb").fadeIn();
+		playHint();
 	}
 		$.notify("Smiley copied to clipboard!");
     e.clearSelection();
@@ -112,8 +122,6 @@ function loadTabs() {
 $(function() {
 	$('#myTabContent').css({ top: ($('#header').offset().top + $('#header').height() + 5) + 'px' });
 	loadTabs();
-	
-
 });
 
 </script>
@@ -176,8 +184,6 @@ $(function() {
 </div>
 
 </div>
-
-
 
 <link rel="stylesheet" type="text/css" href="addtohomescreen.css">
 <script src="addtohomescreen.js"></script>
