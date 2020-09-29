@@ -55,7 +55,7 @@ if(!ClipboardJS.isSupported())
 	
 var clipboard = new ClipboardJS('.btn', {
 	text: function(trigger) {
-		if(count_sign % 10 == 0 && count_sign > 0 || 1) {
+		if(count_sign % 8 == 0 && count_sign > 0) {
 			return ' ' + trigger.getAttribute('data-clipboard-text') + '[url=https://retrosmiles.github.io/retrosmiles][img]https://retrosmiles.github.io/retrosmiles/retro.gif[/img][/url]  ';
 		} else {
 			return ' ' + trigger.getAttribute('data-clipboard-text') + ' ';
