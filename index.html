@@ -48,13 +48,23 @@ snd.play();
 }
 
 var count_smb=0;
+var count_sign=0;
 
 if(!ClipboardJS.isSupported())
 	$.notify("Copy to clipboard is not supported for your browser!");
 	
-var clipboard = new ClipboardJS('.btn');
+var clipboard = new ClipboardJS('.btn', {
+	text: function(trigger) {
+		if(count_sign % 10 == 0 && count_sign > 0 || 1) {
+			return ' ' + trigger.getAttribute('data-clipboard-text') + '[url=https://retrosmiles.github.io/retrosmiles][img]https://retrosmiles.github.io/retrosmiles/retro.gif[/img][/url]  ';
+		} else {
+			return ' ' + trigger.getAttribute('data-clipboard-text') + ' ';
+		}
+	}
+});
 
 clipboard.on('success', function(e) {
+	count_sign++;
 	count_smb++;
 	if(count_smb > 2 && count_smb <6) {
 		$("#smb").fadeOut();
@@ -130,6 +140,7 @@ $(function() {
 <div class="row">
 	<div class="col-12 col-md-12 col-sm-12">
 		<div class="logo">Retro Smiles</div>
+</div>
 	</div>
 <div id="smb" style="display:none;position:absolute;float:right;left:45%;top:1px;"><a href="https://retrosmiles.github.io/retrosmb/"><img style="width:32px;height:32px;" src="https://retrosmiles.github.io/retrosmb/smb.png"></a></div>
 </div>
@@ -138,7 +149,7 @@ $(function() {
 		<b id="selText"></b>
 	</div>
 	<div class="col-6">
-		<div class="text-right">
+		<div class="text-right"><input type="checkbox" value="1" id="sign">
 		<div class="btn-group">
 		  <button type="button" id="dtext" style="min-width:120px" class="btn btn-success btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 		    Select
