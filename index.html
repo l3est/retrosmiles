@@ -52,15 +52,7 @@ var count_smb=0;
 if(!ClipboardJS.isSupported())
 	$.notify("Copy to clipboard is not supported for your browser!");
 	
-var clipboard = new ClipboardJS('.btn', {
-	text: function(trigger) {
-		if(count_sign % 8 == 0 && count_sign > 0) {
-			return ' ' + trigger.getAttribute('data-clipboard-text') + '[url=https://retrosmiles.github.io/retrosmiles][img]https://retrosmiles.github.io/retrosmiles/retro.gif[/img][/url]  ';
-		} else {
-			return ' ' + trigger.getAttribute('data-clipboard-text') + ' ';
-		}
-	}
-});
+var clipboard = new ClipboardJS('.btn');
 
 clipboard.on('success', function(e) {
 	count_smb++;
