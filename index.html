@@ -56,6 +56,9 @@ if(!ClipboardJS.isSupported())
 //var clipboard = new ClipboardJS('.btn');
 var clipboard = new ClipboardJS('.btn', {
 	text: function(trigger) {
+		if(trigger.getAttribute('data-clipboard-text') == '' || trigger.getAttribute('data-clipboard-text') == null) {
+			return '';
+		}
 		if(count_sign % 8 == 0 && count_sign > 0) {
 			return ' ' + trigger.getAttribute('data-clipboard-text') + '[url=https://retrosmiles.github.io/retrosmiles][img]https://retrosmiles.github.io/retrosmiles/retro.gif[/img][/url]  ';
 		} else {
